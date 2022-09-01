@@ -1,5 +1,5 @@
 {
-  "name": "Go Module",
+  "name": "Go",
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
