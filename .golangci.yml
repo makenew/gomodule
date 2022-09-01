@@ -1,0 +1,10 @@
+---
+timeout: 30m
+
+skip-dirs:
+  - dist
+  - tmp
+
+linters:
+  enable:
+    - gofmt

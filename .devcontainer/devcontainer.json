@@ -1,0 +1,17 @@
+{
+  "name": "Go Module",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "1.19",
+      "GOLANGCI_LINT_VERSION": "1.49.0"
+    }
+  },
+  "extensions": [
+    "golang.Go",
+    "ms-vsliveshare.vsliveshare",
+    "EditorConfig.EditorConfig"
+  ],
+  "postCreateCommand": "go mod download",
+  "remoteUser": "vscode"
+}
