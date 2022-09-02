@@ -56,7 +56,7 @@ makenew () {
   read -p '> Author name (Linus Torvalds): ' mk_author
   read -p '> Author email (linus@example.com): ' mk_email
 
-  sed_delete README.md '9,76d'
+  sed_delete README.md '9,84d'
   sed_insert README.md '9i' 'TODO'
 
   find_replace "s/Go Module Project Skeleton/${mk_title}/g"
