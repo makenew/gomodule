@@ -54,7 +54,6 @@ makenew () {
   read -p '> Module and repo name (my-module): ' mk_repo
   read -p '> Short module description (Foos and bars.): ' mk_description
   read -p '> Author name (Linus Torvalds): ' mk_author
-  read -p '> Author email (linus@example.com): ' mk_email
 
   sed_delete README.md '9,84d'
   sed_insert README.md '9i' 'TODO'
@@ -62,7 +61,6 @@ makenew () {
   find_replace "s/Go Module Project Skeleton/${mk_title}/g"
   find_replace "s/Project skeleton for a Go module\./${mk_description}/g"
   find_replace "s/Evan Sosenko/${mk_author}/g"
-  find_replace "s/razorx@evansosenko\.com/${mk_email}/g"
   find_replace "s|makenew/gomodule|${mk_user}/${mk_repo}|g"
   find_replace "s|gomodule|${mk_repo}|g"
 
