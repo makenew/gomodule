@@ -83,6 +83,20 @@ and summarized under [Releases].
 
 [Releases]: https://github.com/makenew/gomodule/releases
 
+## Installation
+
+Simply import this module into your project
+
+```go
+import "github.com/makenew/gomodule"
+```
+
+Then run
+
+```
+$ go mod tidy
+```
+
 ## Development and Testing
 
 ### Quickstart
