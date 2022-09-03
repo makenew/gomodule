@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	pkg.PrintMessage()
+	gomodule.PrintMessage()
 }

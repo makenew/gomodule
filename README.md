@@ -88,7 +88,7 @@ and summarized under [Releases].
 Simply import this module into your project
 
 ```go
-import "github.com/makenew/gomodule"
+import "github.com/makenew/gomodule/pkg"
 ```
 
 Then run
