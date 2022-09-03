@@ -9,6 +9,6 @@ signs:
   - artifacts: checksum
 
 builds:
-  - main: cmd/main.go
+  - main: cmd/gomodule/main.go
     env:
       - CGO_ENABLED=0
