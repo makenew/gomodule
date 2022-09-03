@@ -2,7 +2,7 @@ package pkg
 
 import (
 	"fmt"
-	"github.com/makenew/gomodule/v1/internal"
+	"github.com/makenew/gomodule/internal"
 )
 
 func PrintMessage() {

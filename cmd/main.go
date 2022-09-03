@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/makenew/gomodule/v1/pkg"
+	"github.com/makenew/gomodule/pkg"
 )
 
 func main() {

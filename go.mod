@@ -1,3 +1,3 @@
-module github.com/makenew/gomodule/v1
+module github.com/makenew/gomodule
 
 go 1.19
