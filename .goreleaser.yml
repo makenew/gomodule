@@ -10,5 +10,6 @@ signs:
 
 builds:
   - main: cmd/gomodule/main.go
+    binary: gomodule
     env:
       - CGO_ENABLED=0
