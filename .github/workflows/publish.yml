@@ -1,7 +1,7 @@
 ---
 name: publish
 
-run-name: ${{ github.ref }}
+run-name: ${{ github.ref_name }}
 
 on:
   push:
