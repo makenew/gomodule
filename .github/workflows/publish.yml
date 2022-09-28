@@ -1,6 +1,8 @@
 ---
 name: publish
 
+run-name: ${{ github.ref }}
+
 on:
   push:
     tags:
