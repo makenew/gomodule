@@ -1,7 +1,7 @@
 ---
-name: publish
+name: Publish version
 
-run-name: ${{ github.ref_name }}
+run-name: Publish ${{ github.ref_name }}
 
 on:
   push:
@@ -9,7 +9,8 @@ on:
       - v*
 
 jobs:
-  github:
+  release:
+    name: GitHub Releases
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:

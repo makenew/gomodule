@@ -1,5 +1,5 @@
 ---
-name: check
+name: Check
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
 
 jobs:
   test:
+    name: Test
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -18,6 +19,7 @@ jobs:
       - name: Test
         run: make test
   lint:
+    name: Lint
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -31,6 +33,7 @@ jobs:
           version: v1.49
           args: --timeout 30m
   build:
+    name: Build
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
