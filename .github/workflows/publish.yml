@@ -1,5 +1,5 @@
 ---
-name: Publish version
+name: Publish
 
 run-name: Publish ${{ github.ref_name }}
 
