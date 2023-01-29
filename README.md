@@ -1,6 +1,6 @@
 # Go Module Project Skeleton
 
-[![GitHub Actions](https://github.com/makenew/gomodule/workflows/check/badge.svg)](https://github.com/makenew/gomodule/actions)
+[![GitHub Actions](https://github.com/makenew/gomodule/actions/workflows/check.yml/badge.svg)](https://github.com/makenew/gomodule/actions/workflows/check.yml)
 
 Project skeleton for a Go module.
 
