@@ -30,7 +30,7 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
       - name: Format
-        uses: golangci/golangci-lint-action@v3
+        uses: golangci/golangci-lint-action@v6
         with:
           version: v1.49
           args: --fix --timeout 30m
