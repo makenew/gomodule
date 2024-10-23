@@ -32,7 +32,7 @@ jobs:
       - name: Format
         uses: golangci/golangci-lint-action@v6
         with:
-          version: v1.49
+          version: v1.61
           args: --fix --timeout 30m
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5

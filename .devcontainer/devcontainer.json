@@ -4,7 +4,7 @@
     "dockerfile": "Dockerfile",
     "args": {
       "VARIANT": "1.23",
-      "GOLANGCI_LINT_VERSION": "1.49.0"
+      "GOLANGCI_LINT_VERSION": "1.61.0"
     }
   },
   "extensions": [

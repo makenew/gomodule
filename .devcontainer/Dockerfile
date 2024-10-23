@@ -2,7 +2,7 @@ ARG VARIANT="1.23"
 
 FROM mcr.microsoft.com/vscode/devcontainers/go:${VARIANT}
 
-ARG GOLANGCI_LINT_VERSION="1.49.0"
+ARG GOLANGCI_LINT_VERSION="1.61.0"
 
 RUN echo 'deb [trusted=yes] https://repo.goreleaser.com/apt/ /' \
   | tee /etc/apt/sources.list.d/goreleaser.list
