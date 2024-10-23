@@ -19,7 +19,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_TOKEN }}
       - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v5
+        uses: crazy-max/ghaction-import-gpg@v6
         with:
           git_user_signingkey: true
           git_commit_gpgsign: true
@@ -35,10 +35,10 @@ jobs:
           version: v1.49
           args: --fix --timeout 30m
       - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         if: always()
         with:
-          commit_message: Run format
+          commit_message: 'ci: Format code'
           commit_user_name: ${{ secrets.GIT_USER_NAME }}
           commit_user_email: ${{ secrets.GIT_USER_EMAIL }}
           commit_author: ${{ secrets.GIT_USER_NAME }} <${{ secrets.GIT_USER_EMAIL }}>
