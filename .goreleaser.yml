@@ -1,9 +1,11 @@
 ---
+version: 2
+
 release:
   prerelease: auto
 
 changelog:
-  skip: true
+  disable: true
 
 signs:
   - artifacts: checksum

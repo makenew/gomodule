@@ -31,7 +31,7 @@ jobs:
       - name: Setup
         uses: ./.github/actions/setup
       - name: Release
-        uses: goreleaser/goreleaser-action@v3
+        uses: goreleaser/goreleaser-action@v6
         with:
           args: release --timeout=60m
         env:
